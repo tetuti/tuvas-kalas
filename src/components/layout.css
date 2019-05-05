@@ -49,7 +49,7 @@ main > nav {
 }
 
 input, button, .nav-button {
-	font-family: 'ZCOOL KuaiLe', cursive;
+	font-family: 'ZCOOL KuaiLe', sans-serif;
 	font-size: calc(10px + 2vmin);
 	border: 3px solid #333;
 	background-color: white;
