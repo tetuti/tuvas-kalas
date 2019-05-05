@@ -20,8 +20,8 @@ const allergy = ({id, label, backgroundImage}) => {
 				}: {}}
 				onClick = { () => setChecked(checked !== 'on' ? 'on' : 'off')}
 			>
-				<img src= {backgroundImage} alt = {label}/>
 				{label}
+				<img src= {backgroundImage} alt = {label}/>
 			</label>
 		</>	
 	)

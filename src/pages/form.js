@@ -22,7 +22,7 @@ const FormPage = () => {
 	return (
 		<Layout>
 			<SEO title="Vem är du" keywords={[`gatsby`, `application`, `react`]} />
-			<form name = 'contact'>
+			<form name = 'contact' netlify>
 				<input type="hidden" name='form-name' value="contact" />
 				<input name="name" type = 'text' placeholder="Jag heter..." />
 				<input name="phone" type = 'text' placeholder="Mamma/Pappas mobilnummer är..." />
