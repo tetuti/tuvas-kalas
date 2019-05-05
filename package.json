@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "tuvas-kalas",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Page for my little girls 5-years party",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Lars-Arle Wallin <larsarle@gmail.com",
   "dependencies": {
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",

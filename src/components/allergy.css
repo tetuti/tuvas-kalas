@@ -1,0 +1,17 @@
+input[type=checkbox] {
+	display: none;
+}
+
+label {
+	text-align: center;
+}
+
+label > img {
+	width: 100%;
+}
+/* 
+input[type=checkbox]:checked + label {
+	background-image: url('/public/checked.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+} */
