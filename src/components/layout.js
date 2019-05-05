@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
       <>
       <div className = 'flex-wrapper'>
         <Header image={data.cakeImage.childImageSharp.fluid} />
-        <main className = 'container'>{children}</main>
+        <main>{children}</main>
       </div>
         
       </>

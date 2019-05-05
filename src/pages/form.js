@@ -25,7 +25,7 @@ const FormPage = () => {
 			<form name = 'contact' method='post' action='/tack/' data-netlify="true">
 				<input type="hidden" name="form-name" value="contact" />
 				<input name="name" type = 'text' placeholder="Jag heter..." required/>
-				<input name="phone" type = 'text' placeholder="Mamma/Pappas mobilnummer är..." required/>
+				<input name="phone" type = 'number' placeholder="Mamma/Pappas mobilnummer är..." required/>
 				<strong>Jag äter inte</strong>
 				<div className= 'allergies'>
 				{allergies.map((allergy, index) => <Allergy key = { index } {...allergy}/>)}
