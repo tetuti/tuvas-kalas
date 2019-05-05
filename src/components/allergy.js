@@ -16,7 +16,8 @@ const allergy = ({id, label, backgroundImage}) => {
 				style = {checked === 'on' ? {
 					backgroundImage: `url(${checkedImage})`,
 					backgroundSize: 'contain',
-					backgroundRepeat: 'no-repeat'
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: 'center'
 				}: {}}
 				onClick = { () => setChecked(checked !== 'on' ? 'on' : 'off')}
 			>
