@@ -22,10 +22,10 @@ const FormPage = () => {
 	return (
 		<Layout>
 			<SEO title="Vem är du" keywords={[`gatsby`, `application`, `react`]} />
-			<form name = 'contact' data-netlify="true" action='POST'>
+			<form name = 'contact' method='post' action='/tack/' data-netlify="true">
 				<input type="hidden" name="form-name" value="contact" />
-				<input name="name" type = 'text' placeholder="Jag heter..." />
-				<input name="phone" type = 'text' placeholder="Mamma/Pappas mobilnummer är..." />
+				<input name="name" type = 'text' placeholder="Jag heter..." required/>
+				<input name="phone" type = 'text' placeholder="Mamma/Pappas mobilnummer är..." required/>
 				<strong>Jag äter inte</strong>
 				<div className= 'allergies'>
 				{allergies.map((allergy, index) => <Allergy key = { index } {...allergy}/>)}
