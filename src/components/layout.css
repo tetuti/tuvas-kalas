@@ -6,7 +6,7 @@ body {
 	background-color: #eee;
 	color: #222;
 	font-size: calc(10px + 2vmin);
-	font-family: 'ZCOOL KuaiLe', cursive;
+	font-family: 'ZCOOL KuaiLe', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
