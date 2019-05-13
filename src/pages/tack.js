@@ -9,7 +9,7 @@ const TackPage = () => (
     <div className = 'container '>
 		<h2>Vad kul</h2>
 		<p>
-			Då syns vi på <em>1 Juni</em> på <a target = '_blank' rel="noopener noreferrer" href = "https://www.google.com/maps/place/Konstrukt%C3%B6rsgatan+70,+587+37+Link%C3%B6ping">Konstruktörsgatan 70</a>
+			Då syns vi på <em>1 Juni</em> klockan <em>14:00</em> på <a target = '_blank' rel="noopener noreferrer" href = "https://www.google.com/maps/place/Konstrukt%C3%B6rsgatan+70,+587+37+Link%C3%B6ping">Konstruktörsgatan 70</a>
 		</p>
 		<p>
 			Om ni har några frågor kan ni nå Tuvas mamma eller pappa på mobilnummer: 
