@@ -61,12 +61,16 @@ input, button, .nav-button {
 
 button, .nav-button {
 	text-align: center;
-	/* text-transform: uppercase; */
 }
 
 input[type=text],input[type=number] {
 	width: calc(100% - 2rem);
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+a {
+	color: palevioletred;
+	text-decoration-style: dashed;	
 }
 
 em {
