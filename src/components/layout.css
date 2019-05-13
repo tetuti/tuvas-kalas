@@ -61,11 +61,16 @@ input, button, .nav-button {
 
 button, .nav-button {
 	text-align: center;
+	/* text-transform: uppercase; */
 }
 
 input[type=text],input[type=number] {
 	width: calc(100% - 2rem);
 	margin-bottom: 1rem;
+}
+
+em {
+	color: palevioletred;
 }
 
 .flex-wrapper {
@@ -75,7 +80,7 @@ input[type=text],input[type=number] {
 	flex-direction: column;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 568px) {
 	main {
 		justify-content: center;
 	}
@@ -109,6 +114,10 @@ input[type=text],input[type=number] {
 .logo {
 	margin: 0 auto; 
 	width: 38vmin;
+}
+
+form {
+	max-width: 600px;
 }
 
 @keyframes wobble {

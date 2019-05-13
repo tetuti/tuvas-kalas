@@ -32,11 +32,10 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-      <div className = 'flex-wrapper'>
-        <Header image={data.cakeImage.childImageSharp.fluid} />
-        <main>{children}</main>
-      </div>
-        
+        <div className = 'flex-wrapper'>
+          <Header image={data.cakeImage.childImageSharp.fluid} />
+          <main>{children}</main>
+        </div> 
       </>
     )}
   />
