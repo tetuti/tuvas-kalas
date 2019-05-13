@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import checkedImage from '../images/checked.png'
 import './allergy.css'
 
-const allergy = ({id, label, backgroundImage}) => {
-	const [checked, setChecked] = useState(null)
+const allergy = ({id, label, backgroundImage, checked, onClick}) => {
 	return (
 		<>
 			<input
@@ -13,13 +12,13 @@ const allergy = ({id, label, backgroundImage}) => {
 			/>
 			<label 
 				htmlFor = {id}
-				style = {checked === 'on' ? {
+				style = {checked ? {
 					backgroundImage: `url(${checkedImage})`,
 					backgroundSize: 'contain',
 					backgroundRepeat: 'no-repeat',
 					backgroundPosition: 'center'
 				}: {}}
-				onClick = { () => setChecked(checked !== 'on' ? 'on' : 'off')}
+				onClick = { onClick }
 			>
 				{label}
 				<img src= {backgroundImage} alt = {label}/>
